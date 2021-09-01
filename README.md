@@ -25,19 +25,27 @@ The main goal of this fork is to develop a fully distribution-neutral Software C
 
 You'll need the following dependencies:
 
+* appstream >= 0.10.0
+* appstream-vala
+* desktop-file-utils
+* gee-0.8 >= 0.20.1
 * gettext
-* libappstream-dev (>= 0.10)
-* libgee-0.8-dev
-* libgranite-dev (>=0.5)
-* libgtk-3-dev
-* libjson-glib-dev
-* libpackagekit-glib2-dev
-* libsoup2.4-dev
-* libunity-dev
-* libxml2-dev
-* libxml2-utils
+* glib-2.0 >= 2.56.0
+* gobject-introspection-1.0 >= 1.56.0
+* granite
+* gthread-2.0
+* gtk+-3.0 >= 3.12
+* intltool
+* json-glib-1.0
+* libappstream-glib
+* libsoup-2.4 >= 2.62.0
 * meson
-* valac (>= 0.26)
+* packagekit-glib2
+* vala >= 1:0.40
+
+Optional:
+
+* unity >= 4.0.0
 
 Run `meson build` to configure the build environment. Change to the build directory and run `ninja` to build
 

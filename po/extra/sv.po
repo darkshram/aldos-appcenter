@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-18 05:17-0500\n"
+"PO-Revision-Date: 2018-06-12 06:39+0000\n"
+"Last-Translator: Richard Sjöqvist <richard@spiro.se>\n"
+"Language-Team: Swedish <https://weblate.elementary.io/projects/appcenter/"
+"extra/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
+"X-Launchpad-Export-Date: 2017-03-14 06:26+0000\n"
+
+#: data/org.alcancelibre.appcenter.appdata.xml.in:8
+msgid "AppCenter"
+msgstr "AppCenter"
+
+#: data/org.alcancelibre.appcenter.appdata.xml.in:9
+#: data/org.alcancelibre.appcenter.desktop.in.in:4
+msgid "Browse and manage apps"
+msgstr "Bläddra och hantera appar"
+
+#: data/org.alcancelibre.appcenter.appdata.xml.in:11
+msgid ""
+"An app store for indie and open source developers. Browse by categories or "
+"search and discover new apps. AppCenter is also used for updating your "
+"system to the latest and greatest version for new features and fixes."
+msgstr ""
+"En appbutik för indie och öppen källkods-utvecklare. Bläddra i kategorier "
+"eller sök och upptäck nya appar. AppCenter används också för att uppdatera "
+"ditt system till den senaste och bästa versionen för nya funktioner och "
+"korrigeringar."
+
+#: data/org.alcancelibre.appcenter.appdata.xml.in:201
+msgid "elementary LLC."
+msgstr "elementary LLC."
+
+#: data/org.alcancelibre.appcenter.desktop.in.in:3
+msgid "@APP_NAME@"
+msgstr "@APP_NAME@"
+
+#: data/org.alcancelibre.appcenter.desktop.in.in:6
+msgid "@DESKTOP_ICON@"
+msgstr "@DESKTOP_ICON@"
+
+#: data/org.alcancelibre.appcenter.desktop.in.in:7
+msgid "install;uninstall;remove;catalogue;store;apps;updates;software;"
+msgstr ""
+"installera;avinstallera;ta bort;katalog;butik;appar;uppdateringar;mjukvara;"
+"program;"
+
+#: data/org.alcancelibre.appcenter.desktop.in.in:18
+msgid "Check for Updates"
+msgstr "Sök efter uppdateringar"
+
+#~ msgid "About AppCenter"
+#~ msgstr "Om Programcentral"
+
+#, fuzzy
+#~ msgid "App Center"
+#~ msgstr "Programcentral"

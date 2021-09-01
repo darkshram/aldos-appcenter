@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-18 05:17-0500\n"
+"PO-Revision-Date: 2017-06-16 18:42+0000\n"
+"Last-Translator: Rajeev Kumar <irajeevankumar@gmail.com>\n"
+"Language-Team: Tamil <https://l10n.elementary.io/projects/appcenter/extra/ta/"
+">\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.14\n"
+"X-Launchpad-Export-Date: 2017-03-14 06:26+0000\n"
+
+#: data/org.alcancelibre.appcenter.appdata.xml.in:8
+msgid "AppCenter"
+msgstr "மென்பொருள்-மையம்"
+
+#: data/org.alcancelibre.appcenter.appdata.xml.in:9
+#: data/org.alcancelibre.appcenter.desktop.in.in:4
+msgid "Browse and manage apps"
+msgstr "மென்பொருள் உலாவுதல் மற்றும் நிர்வகித்தல்"
+
+#: data/org.alcancelibre.appcenter.appdata.xml.in:11
+msgid ""
+"An app store for indie and open source developers. Browse by categories or "
+"search and discover new apps. AppCenter is also used for updating your "
+"system to the latest and greatest version for new features and fixes."
+msgstr ""
+
+#: data/org.alcancelibre.appcenter.appdata.xml.in:201
+msgid "elementary LLC."
+msgstr ""
+
+#: data/org.alcancelibre.appcenter.desktop.in.in:3
+msgid "@APP_NAME@"
+msgstr ""
+
+#: data/org.alcancelibre.appcenter.desktop.in.in:6
+msgid "@DESKTOP_ICON@"
+msgstr ""
+
+#: data/org.alcancelibre.appcenter.desktop.in.in:7
+msgid "install;uninstall;remove;catalogue;store;apps;updates;software;"
+msgstr "நிறுவ; நீக்க; நீக்க; அட்டவணை; கடை; பயன்பாடுகள்; மேம்படுத்தல்கள்; மென்பொருள்;"
+
+#: data/org.alcancelibre.appcenter.desktop.in.in:18
+msgid "Check for Updates"
+msgstr ""
+
+#, fuzzy
+#~ msgid "About AppCenter"
+#~ msgstr "மென்பொருள் மையம் பற்றி"

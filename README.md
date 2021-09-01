@@ -18,6 +18,8 @@ The main goal of this fork is to develop a fully distribution-neutral Software C
 * Remove any remote connections to API server from elementaryOS (currently number of packages shown in carousel and banner are set to 0)
 * Use only the local data stored at /usr/share/app-info/xmls for featured and popular applications
 * Easily enable or disable use of native or flatpak packages
+* Remove the payments support
+* Remove any other elementaryOS specific feature
 
 ## Building, Testing, and Installation
 
@@ -39,7 +41,7 @@ You'll need the following dependencies:
 
 Run `meson build` to configure the build environment. Change to the build directory and run `ninja` to build
 
-    meson build --prefix=/usr
+    meson build --prefix=/usr -D payments=false -D curated=false -D sharing=false
     cd build
     ninja
 

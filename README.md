@@ -4,6 +4,8 @@ This is a fork of on 3.0.1 of AppCenter from elementaryOS. It's customized to wo
 
 The main goal of this fork is to develop a fully distribution-neutral Software Center.
 
+![AppCenter Screenshot](data/aldos-appcenter.png?raw=true)
+
 ## Reasons for this fork
 
 * Upstream only cares about elementaryOS

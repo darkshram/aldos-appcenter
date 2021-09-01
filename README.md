@@ -8,7 +8,7 @@ The main goal of this fork is to develop a fully distribution-neutral Software C
 
 ## Reasons for this fork
 
-* Upstream only cares about elementaryOS and have no plans to support other Linux distributiuons
+* Upstream only cares about elementaryOS and have no plans to support other Linux distributions
 * Upstream direction goes to become flatpak-only
 * The best alternative (gnome-software) requires SystemD for system updates and complete functionality
 * The second best alternative (discovery) requires KF5 and KDE Plasma components and offers installation for non-desktop-neutral extensions, plugins and themes.

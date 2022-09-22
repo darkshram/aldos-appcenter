@@ -8,8 +8,8 @@ The main goal of this fork is to develop a fully distribution-neutral Software C
 
 ## Reasons for this fork
 
-* Upstream only cares about elementaryOS and have no plans to support other Linux distributions
-* Upstream direction goes to become flatpak-only
+* Upstream only cares about elementaryOS and have no plans to support other Linux distributions beside the forgotten initial promise to make a distribution-neutral software center
+* Upstream direction goes to become flatpak-only, which I think is a bad idea
 * The best alternative (gnome-software) requires SystemD for system updates and complete functionality
 * The second best alternative (discovery) requires KF5 and KDE Plasma components and offers installation for non-desktop-neutral extensions, plugins and themes.
 
@@ -18,21 +18,22 @@ The main goal of this fork is to develop a fully distribution-neutral Software C
 * Remove any remote connections to API server from elementaryOS (currently number of packages shown in carousel and banner are set to 0)
 * Use only the local data stored at /usr/share/app-info/xmls for featured and popular applications
 * Easily enable or disable use of native or flatpak packages
-* Remove the payments support
+* Remove the payments support code
 * Remove any other elementaryOS specific feature
+* Update code. Currently only builds with appstream 0.12.x. Does not build with appstream >= 0.15.
 
 ## Building, Testing, and Installation
 
 You'll need the following dependencies:
 
-* appstream >= 0.10.0
-* appstream-vala
+* appstream >= 0.10.0, <= 0.13
+* appstream-vala >= 0.10.0, <= 0.13
 * desktop-file-utils
 * gee-0.8 >= 0.20.1
 * gettext
 * glib-2.0 >= 2.56.0
 * gobject-introspection-1.0 >= 1.56.0
-* granite
+* granite >= 5.0
 * gthread-2.0
 * gtk+-3.0 >= 3.12
 * intltool
@@ -41,11 +42,11 @@ You'll need the following dependencies:
 * libsoup-2.4 >= 2.62.0
 * meson
 * packagekit-glib2
-* vala >= 1:0.40
+* vala >= 0.40
 
 Optional:
 
-* unity >= 4.0.0
+* libunity >= 4.0.0
 
 Run `meson build` to configure the build environment. Change to the build directory and run `ninja` to build
 

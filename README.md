@@ -50,7 +50,7 @@ Optional:
 
 Run `meson build` to configure the build environment. Change to the build directory and run `ninja` to build
 
-    meson build --prefix=/usr -D payments=false -D curated=false -D sharing=false
+    meson build --prefix=/usr -D payments=false -D curated=false -D sharing=false -D libunity=false
     cd build
     ninja
 
